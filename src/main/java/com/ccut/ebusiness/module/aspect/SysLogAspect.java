@@ -5,7 +5,7 @@ import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.serializer.SerializerFeature;
 import com.ccut.ebusiness.module.log.SysLog;
 import com.ccut.ebusiness.module.log.SysLogService;
-import com.ccut.ebusiness.module.sys.SysUser;
+import com.ccut.ebusiness.module.system.SysUser;
 import com.ccut.ebusiness.module.tool.HttpContextUtils;
 import com.ccut.ebusiness.module.tool.IPUtils;
 import org.aspectj.lang.ProceedingJoinPoint;

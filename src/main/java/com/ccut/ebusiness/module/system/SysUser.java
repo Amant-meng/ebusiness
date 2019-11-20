@@ -1,4 +1,4 @@
-package com.ccut.ebusiness.module.sys;
+package com.ccut.ebusiness.module.system;
 
 import com.baomidou.mybatisplus.annotations.TableField;
 import com.baomidou.mybatisplus.annotations.TableName;
