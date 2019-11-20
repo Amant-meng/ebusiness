@@ -1,0 +1,22 @@
+#生产环境
+spring:
+  profiles: dev
+  #数据源配置
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/studb
+    username: root
+    password: 123456
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    type: com.alibaba.druid.pool.DruidDataSource
+
+file:
+  uploadFolder: /uploadfiles
+#服务端口配置
+server:
+  port: 8848
+  servlet:
+    session:
+      timeout: 1000
+  server-header:
+    #修改请求头容量大小，防止报错
+    maxHttpHeaderSize: 20 * 1024
