@@ -6,9 +6,9 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * @author Huan.Xia
+ * @author Meng.yang
  * @Title: JSONUtil
- * @ProjectName merchant-management
+ * @ProjectName ebusiness
  * @Description: TODO
  * @date 2018/11/14/01413:43
  */

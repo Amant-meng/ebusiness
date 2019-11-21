@@ -10,7 +10,7 @@ import java.util.Objects;
 /**
  * @author YangMeng
  * @Title: HttpContextUtils
- * @ProjectName merchant-management
+ * @ProjectName ebusiness
  * @Description: 获取HTTP请求工具类
  * @date 2019/01/15
  */

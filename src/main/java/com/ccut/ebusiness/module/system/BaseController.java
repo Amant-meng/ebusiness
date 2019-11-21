@@ -3,11 +3,11 @@ package com.ccut.ebusiness.module.system;
 import org.apache.shiro.SecurityUtils;
 
 /**
- * @author Huan.Xia
+ * @author Meng.yang
  * @Title: BaseController
- * @ProjectName merchant-management
+ * @ProjectName ebusiness
  * @Description: TODO
- * @date 2018/11/13/01318:42
+ * @date 2018/11/13
  */
 public class BaseController {
     public SysUser getCurtUser() {

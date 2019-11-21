@@ -23,7 +23,7 @@ import java.lang.reflect.Method;
 /**
  * @author YangMeng
  * @Title: SysLogAspect
- * @ProjectName merchant-management
+ * @ProjectName ebusiness
  * @Description: (系统日志，切面处理类)
  * @date 2018/12/17
  */

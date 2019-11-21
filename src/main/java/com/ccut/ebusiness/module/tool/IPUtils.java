@@ -10,7 +10,7 @@ import java.net.UnknownHostException;
 /**
  * @author YangMeng
  * @Title: IPUtils
- * @ProjectName merchant-management
+ * @ProjectName ebusiness
  * @Description: 获取IP地址工具类
  * @date 2019/01/15
  */

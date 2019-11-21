@@ -6,11 +6,11 @@ import com.ccut.ebusiness.module.tool.toolentity.Filed;
 import java.util.List;
 
 /**
- * @author Huan.Xia
+ * @author Meng.yang
  * @Title: QueryUntil
- * @ProjectName merchant-management
+ * @ProjectName ebusiness
  * @Description: TODO
- * @date 2018/11/14/01413:53
+ * @date 2018/11/14
  */
 public class QueryUntil {
     /**

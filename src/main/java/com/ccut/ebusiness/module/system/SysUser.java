@@ -9,11 +9,11 @@ import java.util.Date;
 import java.util.List;
 
 /**
- * @author Huan.Xia
+ * @author Meng.yang
  * @Title: SysUser
- * @ProjectName merchant-management
+ * @ProjectName ebusiness ebusiness
  * @Description: 系统用户实体
- * @date 2018/10/30/0309:22
+ * @date 2018/10/30
  */
 @TableName("sys_user")
 @Data

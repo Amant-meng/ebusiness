@@ -4,9 +4,9 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * @author Huan.Xia
+ * @author Meng.yang
  * @Title: PageData
- * @ProjectName merchant-management
+ * @ProjectName ebusiness
  * @Description: TODO
  * @date 2018/11/14/01415:38
  */

@@ -1,11 +1,11 @@
 package com.ccut.ebusiness.module.tool;
 
 /**
- * @author Huan.Xia
+ * @author Meng.yang
  * @Title: Message
- * @ProjectName merchant-management
+ * @ProjectName ebusiness
  * @Description: TODO
- * @date 2018/10/30/03010:43
+ * @date 2018/10/30
  */
 public class Message {
     /**

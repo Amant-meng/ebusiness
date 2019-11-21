@@ -3,11 +3,11 @@ package com.ccut.ebusiness.module.tool.toolentity;
 import java.util.Map;
 
 /**
- * @author Huan.Xia
+ * @author Meng.yang
  * @Title: Filed
- * @ProjectName merchant-management
+ * @ProjectName ebusiness
  * @Description: TODO
- * @date 2018/11/14/01414:15
+ * @date 2018/11/14
  */
 public abstract class Filed {
     public String name;

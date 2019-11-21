@@ -9,8 +9,8 @@ import java.io.Serializable;
 
 /**
  *   @author Meng.yang
- *   @ProjectName
- *   @title:
+ *   @ProjectName ebusiness
+ *   @title: ExcelData
  *   @Description: 表格数据导入实体类
  *   @date 2019/11/20
 */

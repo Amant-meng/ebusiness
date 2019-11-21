@@ -1,15 +1,13 @@
 package com.ccut.ebusiness.module.tool;
 
-
-
 import java.util.Map;
 
 /**
- * @author Huan.Xia
+ * @author Meng.yang
  * @Title: Page
- * @ProjectName merchant-management
+ * @ProjectName ebusiness
  * @Description: TODO
- * @date 2018/11/14/01413:41
+ * @date 2018/11/14
  */
 public class Page {
     private Integer draw;

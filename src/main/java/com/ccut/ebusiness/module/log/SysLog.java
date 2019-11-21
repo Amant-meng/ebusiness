@@ -1,6 +1,5 @@
 package com.ccut.ebusiness.module.log;
 
-import com.baomidou.mybatisplus.annotations.TableField;
 import com.baomidou.mybatisplus.annotations.TableId;
 import com.baomidou.mybatisplus.annotations.TableName;
 import com.baomidou.mybatisplus.enums.IdType;
@@ -13,7 +12,7 @@ import java.util.Date;
 /**
  * @author YangMeng
  * @Title: AnnotationLog
- * @ProjectName merchant-management
+ * @ProjectName ebusiness
  * @Description: 系统日志
  * @date 2018/12/14
  */

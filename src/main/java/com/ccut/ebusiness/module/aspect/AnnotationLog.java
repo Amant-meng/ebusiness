@@ -4,7 +4,7 @@ import java.lang.annotation.*;
 /**
  * @author YangMeng
  * @Title: AnnotationLog
- * @ProjectName merchant-management
+ * @ProjectName ebusiness
  * @Description: 系统日志，自定义注解类
  * @date 2018/12/17
  */

@@ -3,11 +3,11 @@ package com.ccut.ebusiness.module.tool.toolentity;
 import java.util.Map;
 
 /**
- * @author Huan.Xia
+ * @author Meng.yang
  * @Title: TextFiled
- * @ProjectName merchant-management
+ * @ProjectName ebusiness
  * @Description: TODO
- * @date 2018/11/14/01417:09
+ * @date 2018/11/14
  */
 public class TextFiled extends Filed {
     public TextFiled(String name, Map<String, Object> map) {
