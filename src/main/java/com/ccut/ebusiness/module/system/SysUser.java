@@ -3,6 +3,7 @@ package com.ccut.ebusiness.module.system;
 import com.baomidou.mybatisplus.annotations.TableField;
 import com.baomidou.mybatisplus.annotations.TableName;
 import lombok.Data;
+import org.springframework.data.annotation.Id;
 
 import java.io.Serializable;
 import java.util.Date;
@@ -20,6 +21,7 @@ import java.util.List;
 public class SysUser implements Serializable {
     private static final long serialVersionUID = 8841433872811285796L;
 
+    @Id
     private String id;
     private String username;
     private String password;
