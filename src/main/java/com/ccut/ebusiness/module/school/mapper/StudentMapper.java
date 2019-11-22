@@ -22,4 +22,5 @@ public interface StudentMapper extends BaseMapper<Student> {
 
     List<Map> execSQL(Page page);
 
+    List<Map> getStudentList();
 }

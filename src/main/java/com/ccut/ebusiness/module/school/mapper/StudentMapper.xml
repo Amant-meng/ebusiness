@@ -7,4 +7,9 @@
       ${exec_sql}
     </select>
 
+    <select id="getStudentList" resultType="map">
+        select * from student where deltag = '0' order by c_time desc
+    </select>
+
+
 </mapper>

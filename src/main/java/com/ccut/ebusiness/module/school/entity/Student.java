@@ -4,7 +4,6 @@ import com.baomidou.mybatisplus.annotations.TableId;
 import com.baomidou.mybatisplus.annotations.TableName;
 import com.baomidou.mybatisplus.enums.IdType;
 import lombok.Data;
-import org.springframework.data.annotation.Id;
 
 import java.io.Serializable;
 import java.util.Date;
@@ -17,7 +16,7 @@ import java.util.Date;
  *   @date 2019/11/21
 */
 @Data
-@TableName
+@TableName("student")
 public class Student implements Serializable {
 
     private static final long serialVersionUID = 8841433872811285796L;
