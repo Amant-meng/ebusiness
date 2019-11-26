@@ -55,9 +55,9 @@ public class ExcelDataService {
                 row.getCell(1).setCellType(CellType.STRING);
                 row.getCell(2).setCellType(CellType.STRING);
                 ExcelData excelData = new ExcelData();
-                excelData.setName(row.getCell(0).getStringCellValue());
-                excelData.setSex(row.getCell(1).getStringCellValue());
-                excelData.setAge(row.getCell(2).getStringCellValue());
+                excelData.setStu_number(row.getCell(0).getStringCellValue());
+                excelData.setStu_name(row.getCell(1).getStringCellValue());
+                excelData.setStu_sex(row.getCell(2).getStringCellValue());
                 objectList.add(excelData);
                 excelDataMapper.insert(excelData);
             }

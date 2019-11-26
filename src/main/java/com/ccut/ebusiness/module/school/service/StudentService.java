@@ -69,7 +69,6 @@ public class StudentService {
 
     }
 
-
     public List<Map> getStudentList(){
         List<Map>  studentList = null;
         try {
@@ -79,8 +78,6 @@ public class StudentService {
         }
         return studentList;
     }
-
-
 
     public Message delStudent(String stu_number){
         Message message = Message.N();
@@ -102,8 +99,6 @@ public class StudentService {
         return message;
 
     }
-
-
 
 
 }
