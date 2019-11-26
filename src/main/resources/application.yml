@@ -18,5 +18,5 @@ spring:
     static-locations: classpath:/templates/
 #公共配置与profiles选择无关
 mybatis:
-  mapperLocations: classpath*:mapper/*.xml
-  typeAliasesPackage: com.ccut.ebusiness.module.school.entity
+  mapper-locations: classpath*:mapper/*.xml
+  type-aliases-package: com.ccut.ebusiness.module.school.entity
