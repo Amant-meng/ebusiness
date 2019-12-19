@@ -9,6 +9,16 @@ spring:
     driver-class-name: com.mysql.cj.jdbc.Driver
     type: com.alibaba.druid.pool.DruidDataSource
 
+  #配置thymeleaf
+  thymeleaf:
+    prefix: classpath:/views/
+    suffix: .html
+    mode: HTML5
+    encoding: UTF-8
+    cache: false
+    servlet:
+      content-type: text/html
+
 file:
   uploadFolder: /uploadfiles
 #服务端口配置
