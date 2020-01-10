@@ -19,6 +19,13 @@ spring:
     servlet:
       content-type: text/html
 
+  #RabbitMQ基本的配置信息
+  rabbitmq:
+    host: 127.0.0.1
+    port: 5672
+    username: guest
+    password: guest
+
 file:
   uploadFolder: /uploadfiles
 #服务端口配置

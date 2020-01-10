@@ -22,4 +22,5 @@ import java.util.Map;
 public interface ExcelDataMapper extends BaseMapper<ExcelData> {
 
     List<Map> execSQL(Page page);
+
 }
