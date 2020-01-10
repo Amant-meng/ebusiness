@@ -5,9 +5,18 @@ import org.apache.poi.hssf.util.HSSFColor;
 import org.apache.poi.ss.usermodel.*;
 import org.apache.poi.ss.util.CellRangeAddress;
 
+import javax.servlet.ServletOutputStream;
+import javax.servlet.http.HttpServletResponse;
+import java.io.*;
 import java.util.LinkedHashMap;
 import java.util.List;
-
+/**
+ *   @author Meng.yang
+ *   @ProjectName
+ *   @title: ExportExcelUtil
+ *   @Description: Excel表格导出工具类
+ *   @date 2020/01/10
+*/
 public class ExportExcelUtil {
 
     /**
@@ -118,6 +127,56 @@ public class ExportExcelUtil {
             }
         }
     }
+
+
+    /**
+     * 导出并下载
+     * 输出创建的Excel
+     * @param fileName
+     * @param wb
+     * @param resp
+     */
+    private void respOutPutExcel(String fileName, HSSFWorkbook wb, HttpServletResponse resp) {
+        ByteArrayOutputStream os = new ByteArrayOutputStream();
+        BufferedInputStream bis = null;
+        BufferedOutputStream bos = null;
+        try {
+            wb.write(os);
+            System.out.println("导出excel成功");
+            byte[] content = os.toByteArray();
+            InputStream is = new ByteArrayInputStream(content);
+            // 设置response参数，可以打开下载页面
+            resp.reset();
+            resp.setContentType("application/vnd.ms-excel;charset=utf-8");
+            resp.setHeader("Content-Disposition",
+                    "attachment;filename=" + new String((fileName + ".xls").getBytes(), "iso-8859-1"));
+            ServletOutputStream out = resp.getOutputStream();
+            bis = new BufferedInputStream(is);
+            bos = new BufferedOutputStream(out);
+            byte[] buff = new byte[2048];
+            int bytesRead;
+            // Simple read/write loop.
+            while (-1 != (bytesRead = bis.read(buff, 0, buff.length))) {
+                bos.write(buff, 0, bytesRead);
+            }
+        } catch (FileNotFoundException ex) {
+            ex.printStackTrace();
+        } catch (IOException ex) {
+            ex.printStackTrace();
+        }finally {
+            try {
+                if (bis != null)
+                    bis.close();
+                if (bos != null)
+                    bos.close();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+
+        }
+
+    }
+
 
 }
 
