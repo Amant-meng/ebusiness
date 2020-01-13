@@ -19,22 +19,22 @@ public class ExportExcelUtilTest {
         List<ExportExcelView> list = new LinkedList<>();
         ExportExcelView b1 = new ExportExcelView();
         b1.setDeclsno("201810251706470169854601");
-        b1.setDecdt("2018-09-22");
+        b1.setDecdt("2020-01-10");
         b1.setEleacno("1209394999");
         b1.setCustName("张三");
-        b1.setEntName("正信广电");
-        b1.setSaleName("郭启铭");
+        b1.setEntName("酒店帮");
+        b1.setSaleName("杨总");
         b1.setSaleTel("17342064227");
         b1.setRealsumretbal("1000");
         b1.setDecutionFee("100");
 
         ExportExcelView b2 = new ExportExcelView();
         b2.setDeclsno("201810251706470176052618");
-        b2.setDecdt("2018-09-22");
+        b2.setDecdt("2020-01-10");
         b2.setEleacno("1209394999");
         b2.setCustName("赵四");
-        b2.setEntName("正信广电");
-        b2.setSaleName("郭启铭");
+        b2.setEntName("酒店帮");
+        b2.setSaleName("杨总");
         b2.setSaleTel("17342064227");
         b2.setRealsumretbal("2000");
         b2.setDecutionFee("200");
@@ -60,11 +60,11 @@ public class ExportExcelUtilTest {
 
         // 2.定义变量值 创建Excel文件
         // 定义文件名
-        String fileName = "正信广电_201809代扣费用表.xls";
+        String fileName = "酒店帮_202001代扣费用表.xls";
         // 定义表格标题
-        String headString = "正信广电_201809代扣费用表";
+        String headString = "酒店帮_202001代扣费用表";
         // 定义工作表表名
-        String sheetName = "正信广电_201809代扣费用表";
+        String sheetName = "酒店帮_202001代扣费用表";
         // 文件本地保存路径
         String filePath = "D:\\";
         String[] thead = { "扣款流水", "扣款日期", "发电户号", "用户姓名", "开发商",
