@@ -1,4 +1,4 @@
-package com.ccut.ebusiness.module.utils;
+package com.ccut.ebusiness.module.utils.excelutil;
 
 import org.apache.poi.hssf.usermodel.*;
 import org.apache.poi.hssf.util.HSSFColor;

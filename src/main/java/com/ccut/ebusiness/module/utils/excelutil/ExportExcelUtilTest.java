@@ -1,4 +1,4 @@
-package com.ccut.ebusiness.module.utils;
+package com.ccut.ebusiness.module.utils.excelutil;
 
 import org.apache.poi.hssf.usermodel.HSSFSheet;
 import org.apache.poi.hssf.usermodel.HSSFWorkbook;
